@@ -86,6 +86,15 @@ function Experts() {
           <option value="Career">Career</option>
 
           <option value="Finance">Finance</option>
+
+          <option value="Astronomy">Astronomy</option>
+
+          <option value="Data Analytics">Data Analytics</option>
+
+          <option value="AI/ML Engineer">AI/ML Engineer</option>
+
+          <option value="Graphic Designer">Graphic Designer</option>
+          
         </select>
       </div>
 
