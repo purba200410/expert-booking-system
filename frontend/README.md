@@ -1,16 +1,63 @@
-# React + Vite
+Real-Time Expert Session Booking System
+A full-stack real-time expert booking platform built using React, Node.js, Express, MongoDB, and Socket.io.
+Features
+Expert Listing
+Display experts with:
+Name
+Category
+Experience
+Rating
+Search experts by name
+Filter experts by category
+Pagination support
+Loading and error handling
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Expert Details
+View complete expert information
+View available slots grouped by date
+Real-time slot updates using Socket.io
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Booking System
+Book expert sessions with:
+Name
+Email
+Phone Number
+Date
+Time Slot
+Notes
 
-## React Compiler
+Form validation
+Success and error messages
+Disable already booked slots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+My Bookings
+Fetch bookings using email
+Display booking statuses:
+Pending
+Confirmed
+Completed
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+Tech Stack
+
+Frontend
+React (Vite)
+Tailwind CSS
+Axios
+React Router
+Socket.io Client
+
+Backend
+Node.js
+Express.js
+MongoDB Atlas
+Mongoose
+Socket.io
+Express Validator
+
+
+Author
+Purba Dey
